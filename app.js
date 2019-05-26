@@ -17,12 +17,6 @@ app.get('/', (req, res) => {
 app.get('/test.js', (req, res) => { res.send(fs.readFileSync(__dirname + '/test.js')); });
 app.get('/style.css', (req, res) => { res.send(fs.readFileSync(__dirname + '/style.css')); });
 
-main();
-
-async function main() {
-
-}
-
 
 app.listen(port, (error) => {
     if (error) console.log(`Error: ${error}`);
