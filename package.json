@@ -1,0 +1,26 @@
+{
+    "name": "app",
+    "version": "0.0.1",
+    "description": "app",
+    "main": "app.js",
+    "scripts": {
+        "test": "node app.js",
+        "start": "node app.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/nguyennhan0719/app.git"
+    },
+    "keywords": [
+        "app"
+    ],
+    "author": "Nguyen Nhan",
+    "license": "UNLICENSED",
+    "bugs": {
+        "url": "https://github.com/nguyennhan0719/app/issues"
+    },
+    "homepage": "https://github.com/nguyennhan0719/app#readme",
+    "dependencies": {
+        "express": "^4.17.1"
+    }
+}
